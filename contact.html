@@ -1,71 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=">
+    <meta charset="utf-8">
+    <title>Maimuna </title>   
+    <script src="https://kit.fontawesome.com/ab54183825.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Contact</title>
 </head>
-<body>
-     <!--Navigation bar-->
-     <nav>
-        <a href="index.html">home</a>
-        <a href="project.html">projects</a>
-        <a href="services.html">services</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">contact</a>
-        <a href="">Resume</a>
-      </nav>
-      <!--hero section-->
-<header>
-    <h1>drop me a line </h1>
-    <p>book an appointment,tell me about your projects 
-        and consult my own services by filling the form below
-    </p>
-</header>
-<!--main page content-->
-<main> 
-    <h2>send a message</h2
-        <form action="">
-            <div>
-                <label for="name">your name</label>
-                <input type="text" id="name">
+<body>    
+    <div class="header">
+        <nav>
+            <a href="" class="logo">Port<span>folio</span></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About </a></li>
+                    <a href="about.html"></a>
+                    <li><a href="">projects</a></li>
+                    <a href="project.html"></a>
+                    <li><a href="">services</a></li>
+                    <a href="services.html"></a>
+                    <li><a href="">Contact</a></li>
+                    <a href="contact.html"></a>
+                </ul>
             </div>
-            <div>
-                <label for="email">Email</label>
-                <input type="   email" name="email" id="email">
+        </nav>
+        <header>
+            <div class="container">
+              <section class="hero row">
+                <div class="col">
+                    
+                  
+                </div>
+              </section>
             </div>
-            <div>
-                <label for="subject">subject</label>
-                <input type="text" name="subject" id="subject">
+          </header>
+        <div class="left-sidebar"></div>
+        <div class="row">
+            <div class="left-side-col">
+                <img src="mymuna.jpg.jpg">
             </div>
-            <div>
-                <label for="products">products</label>
-                <select name="product" id="product">
-                    <option value="web">web application</option>
-                    <option value="desktop">desktop application</option>
-                    <option value="mobile">mobile application</option>
-                    <option value="other">other</option>
-                </select>
-            </div>
-            <div>
-                <label for="message">message </label>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-            </div>
-            <input type="submit" value="send" />
-        </form> 
-  <!--Footer section-->
-        <footer>
-          <ul>
-            <li><a href="">github</a></li>
-            <li><a href="">linkedIn</a></li>
-            <li><a heref="">Twitter</a></li>
-            <li><a href="">Instagram</a></li>
-            <li><a href="mailto:">Email</a></li>
-          </ul>
-          <p>&copy;2021 all right reserved.&trade;</p>
-        </footer>
+            
+                <main>
+                    <div class="box box_shadow">
+                      <img
+                        src="muna.jpeg"
+                        alt=""
+                        width="100"
+                        height="100"
+                        class="shape"
+                      />
+                      <div class="card-header text-center"></div>
+                      <div class="card-body">
+                        <form action="">
+                          <p>
+                            <label for="">Email *</label><br />
+                            <input
+                              type="email"
+                              name="email"
+                              id="email"
+                              size="30"
+                              placeholder="Your email"
+                              class="form-input"
+                            />
+                          </p>
+                          <p>
+                            <label for="">Name *</label><br />
+                            <input
+                              type="text"
+                              name="name"
+                              id="name"
+                              size="30"
+                              placeholder="Your name"
+                              class="form-input"
+                            />
+                          </p>
+                          <div class="row">
+                            <label class="mr-3" for="phone">Tel. </label>
+                            <input
+                              type="tel"
+                              name="code"
+                              id="code"
+                              size="4"
+                              placeholder="+254"
+                              class="form-input"
+                            />
+                            <input
+                              type="tel"
+                              name="phone"
+                              id="phone"
+                              size="10"
+                              placeholder="07*********"
+                              class="form-input ml-3"
+                            />
+                          </div>
+                          <p>
+                            <label for="means">Preferred means: </label>
+                            <div class="row">
+                              <input type="radio" name="contact" id="mobile" />Tel.
+                              <input type="radio" name="contact" id="mail" />Email
+                            </div>
+                          </p>
+                          <p>
+                            <label for="product">Product*</label> <br />
+                            <select name="product" id="product" class="form-input">
+                              <option value="web">Web Application</option>
+                              <option value="desktop">Desktop Application</option>
+                              <option value="mobile">Mobile Application</option>
+                            </select>
+                          </p>
+                          <p>
+                            <label for="">Message * </label> <br />
+                            <textarea name="message" id="message" rows="5" class="form-input">
+                            </textarea>
+                          </p>
+                          <p>
+                            <input type="checkbox" name="offers" id="offers" />
+                            <label for="offers">Subscribe to news and offers</label>
+                          </p>
+                          <p>
+                            <input class="btn" type="submit" value="Send Message" />
+                          </p>
+                        </form>
+                      </div>
+                    </div>
+                    <hr />
+                  </main>
+                  <footer>
+                    <div class="social">
+                    
+                        <a href="https://twitter.com/login"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/munaism_/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/maimuna hussein"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/login"><i class="fab fa-linkedin"></i></a>
+                     </div><br><br><br><br><br><br>
+                    <button class="button-r">Resume</button>
 
-
-</main>
+                  </footer>
+                  
+                </body>
+              </html>
+              
+              
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
